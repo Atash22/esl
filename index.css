@@ -1,0 +1,54 @@
+nav {
+    background-color: aqua;
+    padding-right: 10px;
+    font-weight: bold;  
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+     
+    
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+li {
+    float: right;
+    padding: 20px;
+    
+    }
+
+body {
+    
+    background-color: #f0f0f0;
+    font-family: Helvetica, sans-serif;
+    background-image: url("resources/images/england.jpeg");
+    background-size: cover;
+    color: white;
+    width: 750px;
+  
+}
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+    padding-left: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: aliceblue;
+}
+
+#welcome {
+    position: absolute;
+    top: 100px;
+    width: 450px;
+    text-align: center;
+    left: 10px;
+}
